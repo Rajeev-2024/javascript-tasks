@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 31.Write a program using if–else ladder to simulate a simple calculator (only +, -, *, /, %).
+
+      num1 = Number(prompt("Enter first number"));
+      num2 = Number(prompt("Enter second number"));
+      op = prompt("Enter operator (+, -, *, /, %)");
+
+      if (op == "+") {
+          console.log(num1 + num2);
+      }
+      else if (op == "-") {
+          console.log(num1 - num2);
+      }
+      else if (op == "*") {
+          console.log(num1 * num2);
+      }
+      else if (op == "/") {
+          console.log(num1 / num2);
+      }
+      else if (op == "%") {
+          console.log(num1 % num2);
+      }
+      else {
+          console.log("Invalid Operator");
+      }
+
+    </script>
+  </body>
+</html>

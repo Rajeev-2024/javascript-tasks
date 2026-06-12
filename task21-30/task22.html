@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 22.Use nested if–else to determine if a number is positive, negative, or zero, and also check if it’s even or odd.
+
+      num = Number(prompt("Enter a number"));
+
+      if (num > 0)
+       {
+        if (num % 2 == 0) 
+        {
+          console.log("Positive and Even");
+        } 
+        else 
+        {
+          console.log("Positive and Odd");
+        }
+      } 
+      else if (num < 0) 
+      {
+        if (num % 2 == 0)
+         {
+          console.log("Negative and Even");
+        }
+         else 
+        {
+          console.log("Negative and Odd");
+        }
+      } 
+      else 
+      {
+        console.log("Zero");
+      }
+
+    </script>
+  </body>
+</html>

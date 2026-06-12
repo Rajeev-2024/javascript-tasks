@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 25.Write a program to compare two expressions and print which one has higher precedence.
+
+      a = 10;
+      b = 5;
+      c = 2;
+
+      exp1 = a + b * c;
+      exp2 = (a + b) * c;
+
+      if (exp1 > exp2) {
+        console.log("Expression 1 is greater");
+      } else if (exp2 > exp1) {
+        console.log("Expression 2 is greater");
+      } else {
+        console.log("Both are equal");
+      }
+      
+    </script>
+  </body>
+</html>
